@@ -1,19 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-   
-    <h1>Etiquta HTML</h1>  
+
+    <h1>Etiquta HTML</h1>
     <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente soluta sint accusantium odit reiciendis repellendus amet, 
-        nobis iusto laboriosam aut facere veritatis <strong>HTML</strong> voluptate reprehenderit dignissimos consequuntur corporis qui dolor nam.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente soluta sint accusantium odit reiciendis
+        repellendus amet,
+        nobis iusto laboriosam aut facere veritatis <strong>HTML</strong> voluptate reprehenderit dignissimos
+        consequuntur corporis qui dolor nam.
     </p>
     <ol>
-        <li>a</li>
+        <li>&lt;a&gt;</li>
+
+        <p>permite anclar una deireccion URL <br>
+            Ejemplo:</p>
+        <a href="">Soy un link</a>
+
+        <li>&lt;abbr&gt;</li>
+        <p>
+            Representa una abraviacion o acronimo el atributo opcional title puede ampliar o
+            describir la abrebiatura, si esta presente el atributo title tiene que contener
+            la descripcion completa y nada mas <br>
+            Ejemplo:
+        </p>
+        <p>Yo hago <abbr title="HyperText Mark Lenguage">HTML</abbr></p>
+
+        <li>&lt;adress&gt;</li>
+
+        <p>Define la inofrmacion de contacto del autor / propietario de un
+            documento u artuculo.
+
+        </p>
+        <p>Escrito por </p>
+
+        <a href="">Abraham Véliz Arteaga</a>
+
+        <li>&lt;article&gt;</li>
+
+        <p>un artuculo debe tener sentido por si mismo y debe ser posible
+            distribuirlo independientemente del resto del sitio.
+            fuentes potenciales para el elemento article:
+        </p>
+        <ul>
+            <li>Publicacion en el foro</li>
+            <li>Entrada en el blog</li>
+            <li>Noticia</li>
+        </ul>
+
+
+        <p><strong>NOTA:</strong> &lt;article&gt; </p>
+
+        <a href="">Ejemplo article con css </a>
+
+        <li>&lt;aside&gt;</li>
+        <p>Define algun contenido ademas del contenido en el que se coloca.
+            El contenido aparte debe estar indirectamente relacionado con el contenido
+            circulante.
+            <strong>sugerencia:</strong> aside se coloca a menudo como una barra lateral
+            en un documento.
+            <strong>Nota:</strong>Este elemento no se muestra como algo especial en el navegador.
+            Sin embargo, puede usar CSS para diseñar el aside <br>
+            <a href="">Ejemplo aside con css
+            </a></aside>
+
+            <li>&lt;audio&gt;</li>
+
+        <p>Agrega controles de audio, como reproduccion, pausa y volumen.</p>
+        &lt;source&gt;
+        permite especificar archivos de audio alternativos entro los que puede elegir el navegadorEjemplo:
+        </p>
+        <audio controls>
+            <source src="audio/teclado-mecanografia.mp3">
+        </audio>
+
+        <p></p>
+        <li>&lt;button&gt;</li>
+        <p>Define un boton en el que se puede hacer clic.
+            Dentro de un &lt;button&gt;
+            puedes poner texto (y etuquetas como ) &lt;i&gt;,&lt;b&gt; &lt;strong&gt; &lt;img&gt; etc ).
+            !Eso no es posible con un boton creado con el &lt;input&gt;
+            <strong>Sugerencia:</strong> Especifique siempre el type de un &lt;button&gt; , para
+            indicar a los navegadores que tipo de boton es.
+            <strong>Consejo: Puede diseñar botones facilmente con <img src="https://picsum.photos/id/1067/
+                    /400" alt=""></strong> Ejemplo:
+
+        </p>
+        <button>boton 1</button><button> boton 2
+
+        </button>
+        <li>&lt;form&gt;</li>
+        <p>Es un contenedor para diferentes tipo de elementos de netrada, como: campoos de texto; casillas de
+            verificacion,
+            botones de opcion, botones de envio, etc.
+        <ul>&lt;input type = "text"&gt; </ul>
+        <p>muestra un campo de entrada de texto de una sola linea</p>
+        <input type="text" name="" id="">
+        <ul>&lt;input type = "radio" &gt,</ul>
+        <p>muestra u boton de radio (para selecionar una de muchas opciones)
+            <br>
+            <input type="radio" name="" id="">
+            <input type="radio" name="" id="">
+            <input type="radio" name="" id="">
+        <ul>&lt;input type = "checkbox"&gt; </ul>
+        <br>
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+
+        <p>Muestra una casilla de verificacion ( para selecionar cero ommas opciones)
+        <ul>&lt;input type = "submit"&gt; </ul>
+        <br>
+        <input type="submit" value="">
+        <p>Muestra un boton de envio ( para enviar fromulario)
+        <ul>&lt;input type = "button"&gt; </ul>
+        <br>
+        <input type="button" value="">
+        <p>Muestra un boton en el que se puede hacer clic
+            <a href="">Ejemplo form</a>
+        </p>
+        <button>Enviar</button>
+        </p>
+        </p>
+        </p>
+        </p>
     </ol>
 </body>
+
 </html>
