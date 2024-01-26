@@ -129,7 +129,118 @@
         </p>
         </p>
         </p>
+        <li>&lt;footer&gt;</li>
+        <p>Define un pie de pagina para un documento o seccion Normalmente contiene</p>
+        <ul>
+            <li>Informacion de autoria</li>
+            <li>Informacion de registro</li>
+            <li>Informacion del contacto</li>
+            <li>Mapa del sitio</li>
+            <li>Volver a los enlaces superiores</li>
+            <li>Documento relacionados</li>
+        </ul>
+        <a href="">Ejemplo footer</a>
+
+        <li>&lt;header&gt;</li>
+        <p>Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegacion.
+            normalmente contiene:
+
+        </p>
+        <ul>
+            <li>uno a mas elementos de encabezado ( &lt;h1&gt; - &lt;h6&gt;)</li>
+                <li>Logotipo o icono</li>
+                <li>Informacion de auditoria <strong>NOTA:</strong>Puede tener varios <&lt;header&gt;> en un documento HTML.
+                    Sin embargo, no se puede colocar dentro de un <&lt;footer&gt;>,<&lt;address&gt;> u otro <&lt;header&gt;>
+                </li>
+        </ul>
+           <p>Ejemplo:</p> 
+
+           <h1>Encabezado de la pagina principal aqui</h1>
+           <p>Publicado el: 17/08/2022</p>
+
+           <li>&lt;hgroup&gt;</li>
+           <p>Generalmente se usa para agrupar un conjunto de uno o mas elementos ( &lt;h1&gt; - &lt;h6&gt;) , para agrupar, 
+            por ejemplo, un titulo de seccion y un subtitulo adjunto.
+            <br>
+            <a href="">Ejemplo hgroup</a>
+           </p>
+           <li>( &lt;h1&gt; - &lt;h6&gt; )</li>
+
+           <p>Se utiliza para definir encabezados HTML.
+           </p>
+        <br>
+        <p>Ejemplo</p>
+        <h1>Hola Mundo!</h1>
+        <h6>Hola Mundo!</h6>
+
+        <li>&lt;img&gt; </li>
+           <p>Se utiliza para incrustar una imagen en una pagina HTML.
+            Tecnicamente, las imagenes no se insertan en una pagina web; las imagenes estan vinculadas a paginas web. L etiqueta 
+            &lt;ima&gt;  rea un espacio de espera para la imagen de referencia.
+            Tiene atributos obligatorios:
+           </p>
+           <ul>
+            <li>src: especifica la ruta a la imagen</li>
+            <li>alt: especifica un texto alternativo para la imagen, si la imagen por algun motivo no se puede mostrar</li>
+           </ul>
+            
+           <a href="">Ejemplo img</a>
+
+           <li>&lt;map&gt; </li>
+           <p>Se utiliza para definir un mapa de inagen, es una imagen con areas en las que se puede hacer clic.
+            El atributo de nombre requerido del &lt;map&gt; esta asociado con el atributo usemap de &lt;img&gt; y 
+            crea una relacion entre la imagen y el mapa.
+
+           </p>
+            <a href="">Ejemplo map</a>
+
+            <li>&lt;nav&gt; </li> 
+            <p>Define un conjunto de enlaces de navegacion
+                Tenga en cuenta que NO todos los enlaces de un documento deben estar dentro de un &lt;nav&gt; . Este
+                elemento esta destinado solo para el bolque principal de enlaces de navegacion.
+
+            </p>
+            <P>Ejemplo</P>
+            <nav>
+                <a href="">Google</a>
+                <a href="">Youtube</a>
+                <a href="">GitHub</a>
+                <a href="">EDC</a>
+            </nav>
+            
+            
+            <li>&lt;p&gt; </li> 
+           <p>Define un parrafo.
+            Los navegadores agregan automaticamente una linea en blanco antes y despues de cada &lt;p&gt;
+           </p>
+           <a href="">Ejemplo p</a>
+
+           <li>&lt;script&gt; </li> 
+           <p>Se utiliza para incrustar un script del lado del cliente <strong>JavaScript</strong>strong
+            Contiene declaraciones de secuencias de comandos o apunta a un archivo de secuencia de comandos
+            externos a traves del atributo <strong>src</strong>
+           </strong>
+        Los usus comunes de <strong> JavaScript</strong> son manipulacion de imagenes, la validacion de formulariuos y los cambios dinamicos de contenido.
+         <br>
+         <strong>Nota:</strong> cuando un navegador lee una hoja de estilo, formateara el documento HTML  de aucuerdo con la informacion de la hoja de estilo.
+         Sise han definido algunas propiedades para el  mismo selector
+         (ejemplo) en diferentes hojas de estilo, se utiliza el valor de la ultima hoja de estilo leida ( consulte el ejemplo a continuacion).
+            
+        </strong></p> 
+        <a href="">Ejemplo script</a>
+        
+        <li>&lt;style&gt; </li>
+        <p>Se utiliza para definir la informacion de estilo 
+            <strong>CSS</strong>  de un documento
+        Dentro de &lt;style&gt;, especifica como deben mostrarse los elemntos HTML en un navegador.</p> 
+        <p>Ejemplo</p>
+
+        <li>&lt;section&gt; </li>
+
+        <p>Define una seccion en un documento</p>
+        <a href="">Ejemplo section</a>
     </ol>
+
 </body>
 
 </html>
